@@ -41,7 +41,7 @@ int main()
                     change=true;
                 }
             }
-            if(!change) break;
+            if(!change)break;
         }
         int f=1;
         for(int i=0;i<m;i++){
