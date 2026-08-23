@@ -9,6 +9,7 @@ using namespace std;
 class Solution {
 public:
     bool isPalindromic(string s) {
+        if(s.size()==1)return false;
         for(int i=0,j=s.size()-1;i<j;i++,j--){
             if(s[i]!=s[j]){
                 return false;
