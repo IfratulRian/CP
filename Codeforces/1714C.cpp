@@ -23,6 +23,7 @@ int main()
                 ans+=to_string(i);
             }
         }
+        reverse(ans.begin(),ans.end());
         cout<<ans<<endl;
     }
 }
