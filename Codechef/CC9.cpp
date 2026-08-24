@@ -13,16 +13,8 @@ int main()
     int t;
     cin>>t;
     while(t--){
-        int n;
-        cin>>n;
-        vector<int>v(2*n),ans;
-        map<int,int>freq;
-        for(auto &x:v)cin>>x;
-        for(int i=0;i<2*n;i++){
-            freq[v[i]]++;
-            if(freq[v[i]]==1)ans.push_back(v[i]);
-        }
-        for(auto x:ans)cout<<x<<' ';
-        cout<<endl;
+        int x,y;
+        cin>>x>>y;
+        cout<<y-x<<endl;
     }
 }
