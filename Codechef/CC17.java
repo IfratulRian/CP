@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class CC17
+public class CC17
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
