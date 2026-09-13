@@ -16,7 +16,7 @@ public class CC17
 		        if(i*20 <= (n*60))h++;
 		        else break;
 		    }
-		    System.out.println( h );
+		    System.out.println(h);
 		}
 	}
 }
