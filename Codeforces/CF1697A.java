@@ -17,7 +17,7 @@ public class CF1697A
 		        arr[i] = sc.nextInt();
 		        sum += arr[i];
 		    }
-		    if(sum >m)System.out.println(sum-m);
+		    if(sum > m)System.out.println(sum-m);
 		    else System.out.println(0);
 		}
 
