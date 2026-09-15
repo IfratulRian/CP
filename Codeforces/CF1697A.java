@@ -10,7 +10,7 @@ public class CF1697A
 		int t = sc.nextInt();
 		while(t-- >0){
 		    int n = sc.nextInt();
-		    int m=sc.nextInt();
+		    int m =sc.nextInt();
 		    int[] arr = new int[n];
 		    int sum=0;
 		    for(int i=0;i<n;i++){
