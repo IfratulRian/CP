@@ -15,7 +15,7 @@ public class CF1697A
 		    int sum = 0;
 		    for(int i = 0; i<n ;i++){
 		        arr[i] = sc.nextInt();
-		        sum+=arr[i];
+		        sum+= arr[i];
 		    }
 		    if(sum>m)System.out.println(sum-m);
 		    else System.out.println(0);
