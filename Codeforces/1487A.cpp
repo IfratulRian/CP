@@ -13,7 +13,7 @@ int main() {
 	while(t--) {
 	    int n;
 	    cin >> n;
-	    vector<int>v(n);
+	    vector<int> v(n);
 	    for(auto &x:v)cin>>x;
 	    int mn=*min_element(v.begin(),v.end());
 	    int ans=0;
