@@ -15,7 +15,7 @@ int main() {
 	    cin >> n;
 	    vector<int> v(n);
 	    for(auto &x : v) cin>>x;
-	    int mn = *min_element(v.begin(),v.end());
+	    int mn = *min_element(v.begin(), v.end());
 	    int ans=0;
 	    for(auto x:v)if(x>mn)ans++;
 	    cout<<ans<<endl;
