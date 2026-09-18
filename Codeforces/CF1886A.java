@@ -17,7 +17,7 @@ public class CF1886A
             System.out.println("YES");
             if(n%3 == 0)System.out.println("2 5 "+(n-7));
             else if(n%3 == 1)System.out.println("1 4 "+(n-5));
-            else System.out.println("1 2 "+(n - 3));
+            else System.out.println("1 2 "+(n- 3));
 		}
 	}
 }
