@@ -9,7 +9,7 @@ int main(){
         cin >> s;
         int f = 0;
         for(int i = 1; i < s.size(); i++){
-            string x = s.substr(0,i);
+            string x = s.substr( 0,i);
             string y=s.substr(i);
             if(y[0]=='0')continue;
             long long a=stoll(x);
