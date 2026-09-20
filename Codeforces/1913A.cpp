@@ -15,8 +15,8 @@ int main(){
             long long a = stoll( x );
             long long b = stoll( y );
             if(a < b){
-                cout<<a<<" "<<b<<"\n";
-                f=1;
+                cout << a << " " << b << "\n";
+                f = 1;
                 break;
             }
         }
